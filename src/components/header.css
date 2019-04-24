@@ -1,0 +1,52 @@
+/* 
+font-family: 'Raleway', sans-serif; 
+*/
+
+body {
+  font-family: 'Raleway';
+  color: black;
+  font-weight: 400;
+}
+
+/* ---------------
+Heading 
+------------------*/
+.wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+.four-column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.title {
+  grid-column: 1 / 2;
+  
+}
+
+.sub-heading {
+  grid-column: 2;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  font-weight: 900;
+}
