@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Home extends Component {
+class Postmodern extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h3>Home Page</h3>
+        <h3>Postmodern Page</h3>
         <p>
-          Intro to concept
+          Wheeeee! Such fun!
     </p>
       </div>
     );
   };
 };
 
-export default Home;
+export default Postmodern;

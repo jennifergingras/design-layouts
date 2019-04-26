@@ -1,66 +1,70 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navtabs.css";
+import "../App.css";
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <Link
-          to="/home"
-          className={window.location.pathname === "/home" ? "nav-link active" : "nav-link"}
-        >
-          Home
+    <div className="wrapper">
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
+          <Link
+            to="/"
+            className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
+          >
+            Home
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/albers"
-          className={window.location.pathname === "/albers" ? "nav-link active" : "nav-link"}
-        >
-          Joseph Albers
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/tiles"
+            className={window.location.pathname === "/tiles" ? "nav-link active" : "nav-link"}
+          >
+            Tiles
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/brodovich"
-          className={window.location.pathname === "/brodovich" ? "nav-link active" : "nav-link"}
-        >
-          Alexey Brodovich
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/wrap"
+            className={window.location.pathname === "/wrap" ? "nav-link active" : "nav-link"}
+          >
+            Wrap
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/miles"
-          className={window.location.pathname === "/miles" ? "nav-link active" : "nav-link"}
-        >
-          Reid Miles
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/overlay"
+            className={window.location.pathname === "/overlay" ? "nav-link active" : "nav-link"}
+          >
+            Overlay
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/destijl"
-          className={window.location.pathname === "/destijl" ? "nav-link active" : "nav-link"}
-        >
-          De Stijl
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/asymmetry"
+            className={window.location.pathname === "/asymmetry" ? "nav-link active" : "nav-link"}
+          >
+            Asymmetry
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/constructivism"
-          className={window.location.pathname === "/constructivism" ? "nav-link active" : "nav-link"}
-        >
-          Constructivism
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/side"
+            className={window.location.pathname === "/side" ? "nav-link active" : "nav-link"}
+          >
+            Side
         </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/postmodern"
-          className={window.location.pathname === "/postmodern" ? "nav-link active" : "nav-link"}
-        >
-          Postmodernism
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/postmodern"
+            className={window.location.pathname === "/postmodern" ? "nav-link active" : "nav-link"}
+          >
+            Postmodern
         </Link>
-      </li>
-    </ul>
+        </li>
+      </ul>
+    </div>
   );
 }
 

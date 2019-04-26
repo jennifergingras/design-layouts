@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Destijl extends Component {
+class Asymmetry extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Destijl extends Component {
   render() {
     return (
       <div>
-        <h1>De Stijl Page</h1>
+        <h3>Asymmetry Page</h3>
         <p>
-          responsive boxes.
+          this page is so Swiss modern!
     </p>
       </div>
     );
   };
 };
 
-export default Destijl;
+export default Asymmetry;

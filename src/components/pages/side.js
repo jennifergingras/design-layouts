@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Postmodern extends Component {
+class Side extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Postmodern extends Component {
   render() {
     return (
       <div>
-        <h1>Postmodernism Page</h1>
+        <h3>Side Page</h3>
         <p>
-          Wheeeee! Such fun!
+          Just tilt your head and you can read it.
     </p>
       </div>
     );
   };
 };
 
-export default Postmodern;
+export default Side;

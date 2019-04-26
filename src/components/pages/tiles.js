@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Constructivism extends Component {
+class Tiles extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Constructivism extends Component {
   render() {
     return (
       <div>
-        <h1>Constructivist Page</h1>
+        <h3>Tiles</h3>
         <p>
-          Lots of read and black and spiky shapes....
+          boxes with image. not dense flow so that there is a lot of white space
     </p>
       </div>
     );
   };
 };
 
-export default Constructivism;
+export default Tiles;

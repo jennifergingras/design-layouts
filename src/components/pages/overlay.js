@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Brodovich extends Component {
+class Overlay extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Brodovich extends Component {
   render() {
     return (
       <div>
-        <h1>Brodovich Page</h1>
+        <h3>Overlay Page</h3>
         <p>
-          He's so cool
+          The page on which we put things on top of other things.
     </p>
       </div>
     );
   };
 };
 
-export default Brodovich;
+export default Overlay;

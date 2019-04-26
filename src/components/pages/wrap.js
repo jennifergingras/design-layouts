@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Miles extends Component {
+class Wrap extends Component {
 
   // functions go here
 
@@ -8,13 +8,13 @@ class Miles extends Component {
   render() {
     return (
       <div>
-        <h1>Reid Miles Page</h1>
+        <h3>Wrap Page</h3>
         <p>
-          He's so cool too!
+          Text wrap. Thank you, Alexey Brodovich.
     </p>
       </div>
     );
   };
 };
 
-export default Miles;
+export default Wrap;
