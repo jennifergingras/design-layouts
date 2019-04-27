@@ -1,0 +1,17 @@
+.wrap-container {
+  width: 90%;
+  margin: auto;
+}
+
+.main-img {
+  float: right;
+  width: 75%;
+  shape-outside: polygon(890px 592px, 36.03% 1.03%, -24px 99.57%);
+  margin-bottom: .75rem;
+}
+
+.text-wrap {
+  font-size: .80rem;
+
+}
+

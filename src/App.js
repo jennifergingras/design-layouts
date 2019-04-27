@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header"
 import NavTabs from "./components/navtabs";
 import Tiles from "./components/pages/tiles";
-import Wrap from "./components/pages/wrap";
+import Wrap from "./components/pages/wrap/wrap";
 import Overlay from "./components/pages/overlay";
 import Asymmetry from "./components/pages/asymmetry";
 import Postmodern from "./components/pages/postmodern";
